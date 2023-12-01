@@ -1,17 +1,8 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    color: white;
-    font-family: Roboto;
-}
-.container{
-    width: 1280px;
-    margin: 0 auto;
-}
-
 .navbar{
     display: flex;
     justify-content: space-between;
+    height: 60px;
+    width: 341px;
 }
 .logo{
     align-items: center;
@@ -27,4 +18,10 @@ body{
 }
 .navbarText{
     margin: 10px;
+    transition: 0.2s;
+    padding: 10px;
+}
+.navbarText:hover{
+    border: 1px solid white;
+    border-radius: 10px;
 }
