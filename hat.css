@@ -1,12 +1,15 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    height: 60px;
-    width: 341px;
+}
+.logo img{
+    width: 40px;
+    color: white;
+    background-color: white;
 }
 .logo{
     align-items: center;
-    font-size: 36px;
+    font-size: 53px;
 }
 .hatBackground{
     background-color: black;
@@ -14,14 +17,19 @@
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 0px;
 }
 .navbarText{
     margin: 10px;
     transition: 0.2s;
     padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.2s;
+    cursor: pointer;
 }
 .navbarText:hover{
-    border: 1px solid white;
-    border-radius: 10px;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: black;
 }
