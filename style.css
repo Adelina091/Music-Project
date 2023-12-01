@@ -1,4 +1,30 @@
 body{
     margin: 0px;
     padding: 0px;
+    color: white;
+    font-family: Roboto;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    align-items: center;
+    font-size: 36px;
+}
+.hatBackground{
+    background-color: black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navbarText{
+    margin: 10px;
 }
