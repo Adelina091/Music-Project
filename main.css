@@ -1,3 +1,4 @@
+/* Основное */
 body{
     margin: 0px;
     padding: 0px;
@@ -28,7 +29,13 @@ button:hover{
     border-radius: 15px;
     
 }
+input{
+    border-radius: 10px;
+    padding: 10px
+}
+/* Основное */
 
+/* Шапка */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -64,7 +71,9 @@ button:hover{
     border-radius: 15px;
     color: black;
 }
+/* Шапка */
 
+/* Баннер */
 .bannerBackground{
     background-image: url("https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?cs=srgb&dl=pexels-daniel-reche-3721941.jpg&fm=jpg");
     background-size: cover;
@@ -77,6 +86,9 @@ button:hover{
     padding: 200px 0px;
     font-size: 80px;
 }
+/* Баннер */
+
+/* Best Artists */
 .musicBackground{
     background: black;
     
@@ -86,6 +98,7 @@ button:hover{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    padding-bottom: 40px;
 }
 .card{
     width: 250px;
@@ -113,3 +126,69 @@ button:hover{
 hr{
     margin-bottom: 30px;
 }
+/* Best Artists */
+
+/* About US | Contacts */
+.aboutUs{
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+}
+.aboutUsTitle h4{
+    font-size: 40px;
+}
+.aboutUsText{
+    font-size: 20px;
+}
+
+.contactUs{
+    border-radius: 10px;
+    text-align: center;
+}
+.contactsAboutUsBackground{
+    background: #000000eb;
+}
+.contactsAboutUsContainer{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.contactsAboutUsContainer div{
+    margin: 20px 0px;
+}
+.contactUs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.contactUs div{
+    margin: 10px;
+}
+.contactUs h4{
+    font-size: 40px;
+}
+/* About US | Contacts */
+
+/* Footer */
+.footerBackground{
+    background: black
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.leftBlock{
+    margin-top: 10px;
+}
+.rightBlock{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 215px;
+}
+.rightBlock div{
+    margin: 5px;
+}
+/* Footer */
