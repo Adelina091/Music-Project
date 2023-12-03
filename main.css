@@ -48,6 +48,7 @@ input{
 .logo{
     align-items: center;
     font-size: 53px;
+    display: flex;
 }
 .hatBackground{
     background-color: black;
@@ -96,6 +97,7 @@ input{
 .cardContainer{
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
     padding-bottom: 40px;
@@ -150,6 +152,7 @@ hr{
 }
 .contactsAboutUsContainer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     
     

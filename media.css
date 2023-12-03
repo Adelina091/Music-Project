@@ -1,0 +1,37 @@
+@media screen and (max-width: 1280px) {
+    .container{
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 808px) {
+    .navbarText{
+        padding: 5px
+    }
+    a, button{
+        font-size: 12px;
+    }
+    .logo{
+        font-size: 37px;
+    }
+    .container{
+        width: 400px;
+    }
+    .cardContainer{
+        justify-content: center;
+    }
+    .cardsTitle{
+        display: flex;
+        justify-content: center;
+    }
+    .contactsAboutUsContainer{
+        display: flex;
+        justify-content: center;
+    }
+    .rightBlock{
+        width: auto;
+    }
+    .bannerText{
+        font-size: 50px;
+    }
+}
