@@ -170,7 +170,7 @@ margin-top: -500px;
     text-align: center;
 }
 .contactsAboutUsBackground{
-    background: #000000eb;
+    background: black;
 }
 .contactsAboutUsContainer{
     display: flex;
@@ -197,7 +197,7 @@ margin-top: -500px;
 
 /* Footer */
 .footerBackground{
-    background: black
+    background: #000000eb;
 }
 .footerContainer{
     display: flex;
