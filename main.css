@@ -29,10 +29,10 @@ button:hover{
     border-radius: 15px;
     
 }
-input{
+ input{
     border-radius: 10px;
     padding: 10px
-}
+} 
 /* Основное */
 
 /* Шапка */
@@ -213,7 +213,5 @@ margin-top: -550px;
     text-align: center;
     width: 215px;
 }
-.rightBlock div{
-    margin: 5px;
-}
+
 /* Footer */
